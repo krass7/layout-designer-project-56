@@ -1,10 +1,17 @@
-/** CSS STYLE **/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  color: #cacaca;
-  background: #08020d;
+  color: $dark-gray;
+  background: $black;
 }
 
 h1 {
@@ -21,7 +28,7 @@ h2 {
   text-transform: uppercase;
 }
 
-@media handheld {
+@media (max-width: 1240px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -35,4 +42,8 @@ h2 {
     font-weight: bold;
     text-transform: uppercase;
   }
+}
+
+a {
+  text-decoration: none;
 }
