@@ -56,18 +56,10 @@ h3 {
   h3 {
     font-size: 16px;
     line-height: 24px;
-    text-transform: uppercase;
     font-weight: normal;
+    text-transform: uppercase;
   }
 }
-.margin-botton-17 {
-  margin-bottom: 17px;
-}
-
-.margin-botton-31 {
-  margin-bottom: 31px;
-}
-
 .dark-gray {
   color: #cacaca;
 }
@@ -142,6 +134,12 @@ h3 {
   align-items: center;
   padding: 200px 0;
   color: #ffffff;
+}
+.header-banner h2 {
+  margin-bottom: 31px;
+}
+.header-banner p {
+  margin-bottom: 17px;
 }
 
 .header-banner-form {
@@ -227,10 +225,6 @@ h3 {
     max-width: 570px;
   }
 }
-.white {
-  color: #ffffff;
-}
-
 .back-subscription {
   width: 1440px;
   background: #08020d;
@@ -321,6 +315,93 @@ h3 {
     width: 100%;
     max-width: 367px;
     padding: 0.9rem;
+  }
+}
+.white {
+  color: #ffffff;
+}
+
+.orange {
+  color: #f89202;
+}
+
+.back-news {
+  width: 1440px;
+  background: #08020d;
+  padding-top: 100px;
+  text-align: center;
+}
+.back-news h2 {
+  margin-bottom: 48px;
+}
+
+.news-block {
+  display: flex;
+  gap: 50px;
+  padding: 0 120px;
+  margin-bottom: 65px;
+}
+
+.news-block-text {
+  text-align: left;
+}
+.news-block-text h3 {
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.news-block-text p {
+  margin-bottom: 25px;
+}
+
+.news-block-avatar {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+.news-block-avatar p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.news-button {
+  width: 135px;
+  height: 53px;
+  background: none;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.news-button a {
+  color: #cacaca;
+}
+
+@media (max-width: 1240px) {
+  .back-news {
+    width: 100%;
+    padding: 100px 20px 0;
+  }
+  .news-block {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .news-block img {
+    max-width: 575px;
+    width: 100%;
+  }
+  .news-block-text {
+    order: 1;
+  }
+  .news-block-text h3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  .news-block-avatar img {
+    width: auto;
   }
 }
 
