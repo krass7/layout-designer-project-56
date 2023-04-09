@@ -89,6 +89,10 @@
     align-items: center;
     padding: 0;
     gap: 34px;
+
+    & p {
+      max-width: 575px;
+    }
   }
 
   .card {
