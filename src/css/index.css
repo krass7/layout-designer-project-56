@@ -70,7 +70,8 @@ h3 {
 
 .back-header {
   position: relative;
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
 }
 .back-header::before {
   position: absolute;
@@ -88,7 +89,9 @@ h3 {
 .header-absolute {
   position: absolute;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 10px 0;
   font-size: 11px;
   top: 25px;
   left: 120px;
@@ -166,7 +169,7 @@ h3 {
 
 .banner-button {
   width: 570px;
-  height: 57px;
+  height: 60px;
   background: #34c176;
   border-radius: 5px;
   border: none;
@@ -179,6 +182,7 @@ h3 {
   .header-absolute {
     flex-direction: column;
     align-items: flex-start;
+    gap: 0;
     left: auto;
     width: calc(100% - 40px);
   }
@@ -189,7 +193,7 @@ h3 {
   }
   .header-logo {
     margin-right: 0;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
   }
   .header-links {
     flex-direction: column;
@@ -227,14 +231,15 @@ h3 {
   }
 }
 .back-subscription {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   background: #08020d;
   color: #ffffff;
   padding-top: 100px;
   text-align: center;
 }
 .back-subscription h2 {
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 .cards {
@@ -311,7 +316,7 @@ h3 {
     flex-direction: column;
     align-items: center;
     padding: 0;
-    gap: 34px;
+    gap: 33px;
   }
   .cards p {
     max-width: 575px;
@@ -319,7 +324,7 @@ h3 {
   .card {
     width: 100%;
     max-width: 367px;
-    padding: 0.9rem;
+    padding: 1rem;
   }
 }
 .white {
@@ -331,7 +336,8 @@ h3 {
 }
 
 .back-news {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   background: #08020d;
   padding-top: 100px;
   text-align: center;
@@ -342,9 +348,9 @@ h3 {
 
 .news-block {
   display: flex;
-  gap: 50px;
+  gap: 55px;
   padding: 0 120px;
-  margin-bottom: 65px;
+  margin-bottom: 67px;
 }
 
 .news-block-text {
@@ -393,7 +399,9 @@ h3 {
   .news-block {
     flex-direction: column;
     align-items: center;
+    gap: 50px;
     padding: 0;
+    margin-bottom: 63px;
   }
   .news-block img {
     max-width: 575px;
@@ -417,7 +425,8 @@ h3 {
 }
 
 .back-mobile {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   background: #08020d;
   padding: 35px 0 100px;
   text-align: center;
@@ -481,7 +490,8 @@ h3 {
 
 .back-footer {
   position: relative;
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   padding: 64px 120px 2rem;
 }
@@ -599,4 +609,4 @@ h3 {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=index.css.map */

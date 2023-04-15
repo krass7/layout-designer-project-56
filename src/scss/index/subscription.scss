@@ -1,12 +1,13 @@
 .back-subscription {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   background: $black;
   color: $white;
   padding-top: 100px;
   text-align: center;
 
   & h2 {
-    margin-bottom: 50px;
+    margin-bottom: 48px;
   }
 }
 
@@ -89,7 +90,7 @@
     flex-direction: column;
     align-items: center;
     padding: 0;
-    gap: 34px;
+    gap: 33px;
 
     & p {
       max-width: 575px;
@@ -99,6 +100,6 @@
   .card {
     width: 100%;
     max-width: 367px;
-    padding: 0.9rem;
+    padding: 1rem;
   }
 }

@@ -3,7 +3,8 @@
 }
 
 .back-mobile {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   background: $black;
   padding: 35px 0 100px;
   text-align: center;

@@ -4,7 +4,8 @@
 
 .back-footer {
   position: relative;
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   padding: 64px 120px 2rem;
 }
