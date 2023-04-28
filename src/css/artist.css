@@ -196,7 +196,6 @@ h3 {
 
 @media (max-width: 1240px) {
   .back-header {
-    width: 100%;
     max-width: 600px;
     padding: 0 20px;
   }
@@ -228,6 +227,63 @@ h3 {
   }
   .executor-buttons {
     flex-direction: column;
+  }
+}
+.white {
+  color: #ffffff;
+}
+
+.gray {
+  color: #e0e0e0;
+}
+
+.back-popular-tracks {
+  width: 100%;
+  max-width: 1440px;
+  background: #08020d;
+  padding: 100px 0 0 120px;
+  text-align: left;
+}
+.back-popular-tracks h2 {
+  margin-bottom: 48px;
+}
+
+.tracks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.popular-track {
+  display: flex;
+  gap: 15px;
+  width: 550px;
+}
+.popular-track img {
+  width: 55px;
+  height: 55px;
+}
+.popular-track p {
+  font-size: 13px;
+}
+
+.track-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.track-time {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+@media (max-width: 1240px) {
+  .back-popular-tracks {
+    max-width: 600px;
+    padding: 100px 20px 0;
   }
 }
 

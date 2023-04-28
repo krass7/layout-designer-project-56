@@ -1,0 +1,60 @@
+.white {
+  color: $white;
+}
+
+.gray {
+  color: $gray;
+}
+
+.back-popular-tracks {
+  width: 100%;
+  max-width: 1440px;
+  background: $black;
+  padding: 100px 0 0 120px;
+  text-align: left;
+
+  & h2 {
+    margin-bottom: 48px;
+  }
+}
+
+.tracks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.popular-track {
+  display: flex;
+  gap: 15px;
+  width: 550px;
+
+  & img {
+    width: 55px;
+    height: 55px;
+  }
+
+  & p {
+    font-size: 13px;
+  }
+}
+
+.track-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.track-time {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+@media (max-width: 1240px) {
+  .back-popular-tracks {
+    max-width: 600px;
+    padding: 100px 20px 0;
+  }
+}
