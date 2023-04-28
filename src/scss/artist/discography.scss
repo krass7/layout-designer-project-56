@@ -1,0 +1,58 @@
+.gray {
+  color: $gray;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.letter-spacing {
+  letter-spacing: -0.7;
+}
+
+.back-discography {
+  width: 100%;
+  max-width: 1440px;
+  background: $black;
+  color: $white;
+  padding: 100px 0 0 120px;
+  text-align: left;
+
+  & h2 {
+    margin-bottom: 50px;
+  }
+}
+
+.discography {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.discography-item {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+@media (max-width: 1240px) {
+  .back-discography {
+    max-width: 600px;
+    padding: 100px 20px 0;
+
+    & h2 {
+      margin-bottom: 47px;
+    }
+  }
+
+  .discography-item {
+    & img {
+      width: 137px;
+      height: 137px;
+    }
+  }
+
+  .discography-info {
+    max-width: 137px;
+  }
+}

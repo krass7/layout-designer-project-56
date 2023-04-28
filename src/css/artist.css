@@ -229,10 +229,6 @@ h3 {
     flex-direction: column;
   }
 }
-.white {
-  color: #ffffff;
-}
-
 .gray {
   color: #e0e0e0;
 }
@@ -241,6 +237,7 @@ h3 {
   width: 100%;
   max-width: 1440px;
   background: #08020d;
+  color: #ffffff;
   padding: 100px 0 0 120px;
   text-align: left;
 }
@@ -284,6 +281,58 @@ h3 {
   .back-popular-tracks {
     max-width: 600px;
     padding: 100px 20px 0;
+  }
+}
+.gray {
+  color: #e0e0e0;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.letter-spacing {
+  letter-spacing: -0.7;
+}
+
+.back-discography {
+  width: 100%;
+  max-width: 1440px;
+  background: #08020d;
+  color: #ffffff;
+  padding: 100px 0 0 120px;
+  text-align: left;
+}
+.back-discography h2 {
+  margin-bottom: 50px;
+}
+
+.discography {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.discography-item {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+@media (max-width: 1240px) {
+  .back-discography {
+    max-width: 600px;
+    padding: 100px 20px 0;
+  }
+  .back-discography h2 {
+    margin-bottom: 47px;
+  }
+  .discography-item img {
+    width: 137px;
+    height: 137px;
+  }
+  .discography-info {
+    max-width: 137px;
   }
 }
 
