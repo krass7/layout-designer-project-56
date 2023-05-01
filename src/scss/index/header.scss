@@ -29,19 +29,18 @@
   align-items: center;
   font-size: 11px;
   top: 25px;
-  left: 120px;
+  left: 119px;
   content: "";
 }
 
 .header-logo {
   display: flex;
   align-items: center;
-  gap: 17px;
-  margin-right: 89px;
+  gap: 16px;
+  margin-right: 90px;
 
   & p {
     color: $white;
-    letter-spacing: -0.4px;
   }
 }
 
@@ -52,24 +51,19 @@
 
 .header-links {
   display: flex;
-  gap: 23px;
-  margin-right: 449px;
-  letter-spacing: 0.1px;
-}
-
-.header-form {
-  height: 20px;
+  gap: 24px;
+  margin-right: 451px;
 }
 
 .header-form-input {
-  width: 250px;
-  height: 24px;
+  width: 248px;
+  height: 25px;
   background: $dark;
   color: $white;
   border-radius: 50px;
   border: none;
   outline: none;
-  padding: 0 10px;
+  padding: 5px 10px;
 
   &::placeholder {
     font-size: 13px;
@@ -81,7 +75,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 200px 0;
+  padding: 200px 121px 200px 119px;
   color: $white;
 
   & h2 {
@@ -90,7 +84,6 @@
 
   & p {
     margin-bottom: 17px;
-    letter-spacing: 0.2px;
   }
 }
 
@@ -103,7 +96,7 @@
   width: 273px;
   height: 50px;
   padding: 0 20px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
   border: 2px solid $dark-gray;
   border-radius: 3px;
   background: none;
@@ -119,7 +112,7 @@
 
 .banner-button {
   width: 570px;
-  height: 60px;
+  height: 57px;
   background: $green;
   border-radius: 5px;
   border: none;
@@ -145,14 +138,22 @@
 
   .header-logo {
     margin-right: 0;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
+
+    & p {
+      font-weight: 700;
+    }
   }
 
   .header-links {
     flex-direction: column;
-    gap: 0;
+    gap: 3px;
     margin-right: 0;
-    margin-bottom: 19px;
+    margin-bottom: 18px;
+
+    & a {
+      font-weight: 700;
+    }
   }
 
   .header-form {
@@ -167,7 +168,7 @@
     min-width: 270px;
     min-height: 50px;
     text-align: center;
-    padding-top: 248px;
+    padding: 250px 0 201px;
 
     & h2 {
       margin-bottom: 16px;
