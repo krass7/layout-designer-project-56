@@ -24,6 +24,7 @@ h1 {
   line-height: 90px;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: -1.5px;
 }
 
 h2 {
@@ -31,6 +32,7 @@ h2 {
   line-height: 57px;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: -1.5px;
 }
 
 h3 {
@@ -42,16 +44,18 @@ h3 {
 
 @media (max-width: 1240px) {
   h1 {
-    font-size: 29px;
+    font-size: 30px;
     line-height: 45px;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: -1px;
   }
   h2 {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 27px;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: -1px;
   }
   h3 {
     font-size: 16px;
@@ -87,7 +91,6 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 10px 0;
   font-size: 11px;
   top: 25px;
   left: 120px;
@@ -98,10 +101,11 @@ h3 {
   display: flex;
   align-items: center;
   gap: 17px;
-  margin-right: 86px;
+  margin-right: 89px;
 }
 .header-logo p {
   color: #ffffff;
+  letter-spacing: -0.4px;
 }
 
 .header-logo-img {
@@ -112,12 +116,17 @@ h3 {
 .header-links {
   display: flex;
   gap: 23px;
-  margin-right: 452px;
+  margin-right: 449px;
+  letter-spacing: 0.1px;
+}
+
+.header-form {
+  height: 20px;
 }
 
 .header-form-input {
   width: 250px;
-  height: 25px;
+  height: 24px;
   background: #3c3b3d;
   color: #ffffff;
   border-radius: 50px;
@@ -141,7 +150,8 @@ h3 {
   margin-bottom: 31px;
 }
 .header-banner p {
-  margin-bottom: 16px;
+  margin-bottom: 17px;
+  letter-spacing: 0.1px;
 }
 
 .header-banner-form {

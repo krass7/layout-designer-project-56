@@ -24,6 +24,7 @@ h1 {
   line-height: 90px;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: -1.5px;
 }
 
 h2 {
@@ -31,6 +32,7 @@ h2 {
   line-height: 57px;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: -1.5px;
 }
 
 h3 {
@@ -42,17 +44,19 @@ h3 {
 
 @media (max-width: 1240px) {
   h1 {
-    font-size: 29px;
+    font-size: 30px;
     line-height: 45px;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: -1px;
   }
 
   h2 {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 27px;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: -1px;
   }
 
   h3 {

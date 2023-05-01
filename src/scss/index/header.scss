@@ -27,7 +27,6 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 10px 0;
   font-size: 11px;
   top: 25px;
   left: 120px;
@@ -38,10 +37,11 @@
   display: flex;
   align-items: center;
   gap: 17px;
-  margin-right: 86px;
+  margin-right: 89px;
 
   & p {
     color: $white;
+    letter-spacing: -0.4px;
   }
 }
 
@@ -53,12 +53,17 @@
 .header-links {
   display: flex;
   gap: 23px;
-  margin-right: 452px;
+  margin-right: 449px;
+  letter-spacing: 0.1px;
+}
+
+.header-form {
+  height: 20px;
 }
 
 .header-form-input {
   width: 250px;
-  height: 25px;
+  height: 24px;
   background: $dark;
   color: $white;
   border-radius: 50px;
@@ -84,7 +89,8 @@
   }
 
   & p {
-    margin-bottom: 16px;
+    margin-bottom: 17px;
+    letter-spacing: 0.1px;
   }
 }
 
