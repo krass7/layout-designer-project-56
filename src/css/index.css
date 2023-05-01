@@ -248,14 +248,17 @@ h3 {
   text-align: center;
 }
 .back-subscription h2 {
-  margin-bottom: 48px;
+  margin-bottom: 49px;
 }
 
 .cards {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 42px 49px;
-  padding: 0 120px;
+  gap: 41px 49px;
+}
+.cards p {
+  max-width: 1200px;
 }
 
 .card {
@@ -291,7 +294,7 @@ h3 {
   gap: 16px;
   justify-content: center;
   line-height: 1;
-  margin-bottom: 41px;
+  margin-bottom: 40px;
 }
 .price .number {
   font-size: 64px;
