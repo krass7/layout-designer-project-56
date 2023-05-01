@@ -335,5 +335,54 @@ h3 {
     max-width: 137px;
   }
 }
+.gray {
+  color: #e0e0e0;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.back-similar-artists {
+  width: 100%;
+  max-width: 1440px;
+  background: #08020d;
+  color: #ffffff;
+  padding: 100px 0 0 120px;
+  text-align: left;
+}
+.back-similar-artists h2 {
+  margin-bottom: 50px;
+}
+
+.similar-artists {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.similar-item {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: center;
+}
+
+@media (max-width: 1240px) {
+  .back-similar-artists {
+    max-width: 600px;
+    padding: 100px 20px 0;
+  }
+  .back-similar-artists h2 {
+    margin-bottom: 47px;
+  }
+  .similar-item img {
+    width: 137px;
+    height: 137px;
+  }
+  .similar-info {
+    max-width: 137px;
+  }
+}
 
 /*# sourceMappingURL=artist.css.map */
