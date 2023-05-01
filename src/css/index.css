@@ -42,13 +42,13 @@ h3 {
 
 @media (max-width: 1240px) {
   h1 {
-    font-size: 30px;
+    font-size: 29px;
     line-height: 45px;
     font-weight: bold;
     text-transform: uppercase;
   }
   h2 {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 27px;
     font-weight: bold;
     text-transform: uppercase;
@@ -141,7 +141,7 @@ h3 {
   margin-bottom: 31px;
 }
 .header-banner p {
-  margin-bottom: 17px;
+  margin-bottom: 16px;
 }
 
 .header-banner-form {
@@ -178,17 +178,17 @@ h3 {
 }
 
 @media (max-width: 1240px) {
+  .back-header {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+  }
   .header-absolute {
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
     left: auto;
     width: calc(100% - 40px);
-  }
-  .back-header {
-    width: 100%;
-    max-width: 600px;
-    padding: 0 20px;
   }
   .header-logo {
     margin-right: 0;
@@ -198,7 +198,7 @@ h3 {
     flex-direction: column;
     gap: 0;
     margin-right: 0;
-    margin-bottom: 18px;
+    margin-bottom: 19px;
   }
   .header-form {
     width: 100%;
@@ -210,10 +210,10 @@ h3 {
     min-width: 270px;
     min-height: 50px;
     text-align: center;
-    padding-top: 247px;
+    padding-top: 248px;
   }
   .header-banner h2 {
-    margin-bottom: 17px;
+    margin-bottom: 16px;
   }
   .header-banner-form {
     flex-direction: column;
