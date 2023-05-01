@@ -348,7 +348,7 @@ h3 {
   max-width: 1440px;
   background: #08020d;
   color: #ffffff;
-  padding: 100px 0 0 120px;
+  padding: 100px 0 100px 120px;
   text-align: left;
 }
 .back-similar-artists h2 {
@@ -371,7 +371,7 @@ h3 {
 @media (max-width: 1240px) {
   .back-similar-artists {
     max-width: 600px;
-    padding: 100px 20px 0;
+    padding: 100px 20px;
   }
   .back-similar-artists h2 {
     margin-bottom: 47px;
@@ -382,6 +382,130 @@ h3 {
   }
   .similar-info {
     max-width: 137px;
+  }
+}
+.font-size-15 {
+  font-size: 15px;
+}
+
+.back-footer {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  padding: 64px 120px 2rem;
+}
+
+.navigation {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 114px;
+}
+
+.about {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+}
+.about h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.about a {
+  color: #e0e0e0;
+}
+
+.support {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+}
+.support h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.support a {
+  color: #e0e0e0;
+}
+
+.contacts {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+}
+.contacts h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.contacts p {
+  color: #e0e0e0;
+}
+
+.subscribe {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+}
+.subscribe h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.subscribe-links {
+  display: flex;
+  gap: 24px;
+  line-height: 0;
+}
+
+.white-line {
+  position: absolute;
+  top: 272px;
+  left: 0;
+  width: 100%;
+  border: 1px solid #cacaca;
+  content: "";
+}
+
+.navigation-links {
+  display: flex;
+  gap: 16px;
+}
+.navigation-links a {
+  color: #e0e0e0;
+}
+
+@media (max-width: 1240px) {
+  .back-footer {
+    width: 100%;
+    max-width: 600px;
+    padding: 64px 20px 2rem;
+  }
+  .navigation {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 123px;
+  }
+  .white-line {
+    top: 684px;
+  }
+  .navigation-links {
+    flex-direction: column;
   }
 }
 
