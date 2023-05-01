@@ -393,7 +393,7 @@ h3 {
   width: 100%;
   max-width: 1440px;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-  padding: 64px 120px 2rem;
+  padding: 64px 120px 50px;
 }
 
 .navigation {
@@ -484,7 +484,7 @@ h3 {
 
 .navigation-links {
   display: flex;
-  gap: 16px;
+  gap: 18px;
 }
 .navigation-links a {
   color: #e0e0e0;
