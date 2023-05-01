@@ -151,7 +151,7 @@ h3 {
 }
 .header-banner p {
   margin-bottom: 17px;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.2px;
 }
 
 .header-banner-form {
@@ -223,6 +223,9 @@ h3 {
     padding-top: 248px;
   }
   .header-banner h2 {
+    margin-bottom: 16px;
+  }
+  .header-banner p {
     margin-bottom: 16px;
   }
   .header-banner-form {
