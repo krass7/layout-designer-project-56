@@ -1,3 +1,7 @@
+.letter-spacing {
+  letter-spacing: 0.1px;
+}
+
 .back-subscription {
   width: 100%;
   max-width: 1240px;
@@ -8,6 +12,7 @@
 
   & h2 {
     margin-bottom: 49px;
+    letter-spacing: -1px;
   }
 }
 
@@ -16,6 +21,10 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 41px 49px;
+
+  & p {
+    max-width: 1200px;
+  }
 }
 
 .card {
