@@ -328,19 +328,23 @@ h3 {
     max-width: 600px;
     padding: 100px 20px 0;
   }
+  .back-subscription h2 {
+    margin-bottom: 48px;
+    letter-spacing: -0.4px;
+  }
   .cards {
     flex-direction: column;
     align-items: center;
     padding: 0;
-    gap: 33px;
+    gap: 31px;
   }
   .cards p {
     max-width: 575px;
   }
   .card {
     width: 100%;
-    max-width: 367px;
-    padding: 1rem;
+    max-width: 374px;
+    padding: 16px 24px;
   }
 }
 .orange {
