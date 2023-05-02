@@ -257,9 +257,6 @@ h3 {
   flex-wrap: wrap;
   gap: 41px 49px;
 }
-.cards p {
-  max-width: 1150px;
-}
 
 .card {
   width: 367px;
