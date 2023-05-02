@@ -76,6 +76,10 @@
     width: 100%;
     max-width: 600px;
     padding: 100px 20px 0;
+
+    & h2 {
+      margin-bottom: 48px;
+    }
   }
 
   .news-block {
@@ -83,7 +87,6 @@
     align-items: center;
     gap: 50px;
     padding: 0;
-    margin-bottom: 63px;
 
     & img {
       max-width: 575px;
