@@ -39,7 +39,11 @@
   .back-mobile {
     width: 100%;
     max-width: 600px;
-    padding: 35px 20px 100px;
+    padding: 100px 20px 0;
+
+    & h2 {
+      margin-bottom: 48px;
+    }
   }
 
   .mobile-block {
@@ -60,6 +64,6 @@
     width: 100%;
     max-width: 575px;
     order: 2;
-    padding-top: 15px;
+    padding-top: 16px;
   }
 }
