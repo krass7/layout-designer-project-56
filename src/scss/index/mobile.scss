@@ -1,19 +1,18 @@
 .back-mobile {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1240px;
   background: $black;
-  padding: 35px 0 100px;
+  padding: 100px 20px 0;
   text-align: center;
 
   & h2 {
-    margin-bottom: 48px;
+    margin-bottom: 47px;
     color: $white;
   }
 }
 
 .mobile-block {
   display: flex;
-  padding: 0 120px;
   gap: 144px;
 }
 
