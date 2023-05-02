@@ -1,16 +1,28 @@
+.margin-bottom-67 {
+  margin-bottom: 67px;
+}
+
+.margin-bottom-17 {
+  margin-bottom: 17px;
+}
+
+.margin-bottom-25 {
+  margin-bottom: 25px;
+}
+
 .orange {
   color: $orange;
 }
 
 .back-news {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1240px;
   background: $black;
   padding-top: 100px;
   text-align: center;
 
   & h2 {
-    margin-bottom: 48px;
+    margin-bottom: 49px;
     color: $white;
   }
 }
@@ -18,8 +30,7 @@
 .news-block {
   display: flex;
   gap: 55px;
-  padding: 0 120px;
-  margin-bottom: 67px;
+  padding: 0 20px;
 }
 
 .news-block-text {
@@ -32,16 +43,12 @@
     margin-bottom: 30px;
     color: $white;
   }
-
-  & p {
-    margin-bottom: 25px;
-  }
 }
 
 .news-block-avatar {
   display: flex;
   gap: 16px;
-  margin-bottom: 48px;
+  margin-bottom: 47px;
 
   & p {
     font-size: 12px;
