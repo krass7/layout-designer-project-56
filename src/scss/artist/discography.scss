@@ -12,14 +12,14 @@
 
 .back-discography {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1240px;
   background: $black;
   color: $white;
-  padding: 100px 0 0 120px;
+  padding: 100px 20px 0;
   text-align: left;
 
   & h2 {
-    margin-bottom: 50px;
+    margin-bottom: 48px;
   }
 }
 
@@ -41,7 +41,7 @@
     padding: 100px 20px 0;
 
     & h2 {
-      margin-bottom: 47px;
+      margin-bottom: 48px;
     }
   }
 

@@ -297,14 +297,14 @@ h3 {
 
 .back-discography {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1240px;
   background: #08020d;
   color: #ffffff;
-  padding: 100px 0 0 120px;
+  padding: 100px 20px 0;
   text-align: left;
 }
 .back-discography h2 {
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 .discography {
@@ -325,7 +325,7 @@ h3 {
     padding: 100px 20px 0;
   }
   .back-discography h2 {
-    margin-bottom: 47px;
+    margin-bottom: 48px;
   }
   .discography-item img {
     width: 137px;
