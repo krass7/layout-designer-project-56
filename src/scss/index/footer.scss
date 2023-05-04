@@ -116,13 +116,19 @@
   .back-footer {
     width: 100%;
     max-width: 600px;
-    padding: 64px 20px 2rem;
+    padding: 64px 20px 47px;
   }
 
   .navigation {
     flex-direction: column;
-    gap: 30px;
-    margin-bottom: 123px;
+    gap: 32px;
+    margin-bottom: 116px;
+  }
+
+  .subscribe {
+    & h2 {
+      margin-bottom: 19px;
+    }
   }
 
   .white-line {
@@ -131,5 +137,6 @@
 
   .navigation-links {
     flex-direction: column;
+    gap: 16px;
   }
 }

@@ -7,7 +7,7 @@
   width: 100%;
   max-width: 1440px;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-  padding: 64px 120px 50px;
+  padding: 64px 120px 47px;
 }
 
 .navigation {
@@ -27,7 +27,7 @@
     font-weight: bold;
     text-transform: uppercase;
     color: $white;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
   }
 
   & a {
@@ -46,7 +46,7 @@
     font-weight: bold;
     text-transform: uppercase;
     color: $white;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
   }
 
   & a {
@@ -65,7 +65,7 @@
     font-weight: bold;
     text-transform: uppercase;
     color: $white;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
   }
 
   & p {
@@ -84,7 +84,7 @@
     font-weight: bold;
     text-transform: uppercase;
     color: $white;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
   }
 }
 
@@ -96,7 +96,7 @@
 
 .white-line {
   position: absolute;
-  top: 272px;
+  top: 273px;
   left: 0;
   width: 100%;
   border: 1px solid $dark-gray;
@@ -105,7 +105,7 @@
 
 .navigation-links {
   display: flex;
-  gap: 18px;
+  gap: 17px;
 
   & a {
     color: $gray;
@@ -116,13 +116,19 @@
   .back-footer {
     width: 100%;
     max-width: 600px;
-    padding: 64px 20px 2rem;
+    padding: 64px 20px 47px;
   }
 
   .navigation {
     flex-direction: column;
-    gap: 30px;
-    margin-bottom: 123px;
+    gap: 32px;
+    margin-bottom: 116px;
+  }
+
+  .subscribe {
+    & h2 {
+      margin-bottom: 19px;
+    }
   }
 
   .white-line {
@@ -131,5 +137,6 @@
 
   .navigation-links {
     flex-direction: column;
+    gap: 16px;
   }
 }
