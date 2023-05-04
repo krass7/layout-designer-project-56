@@ -538,7 +538,7 @@ h3 {
   width: 100%;
   max-width: 1440px;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-  padding: 64px 120px 2rem;
+  padding: 64px 120px 47px;
 }
 
 .navigation {
@@ -558,7 +558,7 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
 }
 .about a {
   color: #e0e0e0;
@@ -575,7 +575,7 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
 }
 .support a {
   color: #e0e0e0;
@@ -592,7 +592,7 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
 }
 .contacts p {
   color: #e0e0e0;
@@ -609,7 +609,7 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 .subscribe-links {
@@ -620,7 +620,7 @@ h3 {
 
 .white-line {
   position: absolute;
-  top: 272px;
+  top: 273px;
   left: 0;
   width: 100%;
   border: 1px solid #cacaca;
@@ -629,7 +629,7 @@ h3 {
 
 .navigation-links {
   display: flex;
-  gap: 16px;
+  gap: 17px;
 }
 .navigation-links a {
   color: #e0e0e0;
