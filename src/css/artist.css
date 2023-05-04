@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -349,14 +350,14 @@ h3 {
 
 .back-similar-artists {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1240px;
   background: #08020d;
   color: #ffffff;
-  padding: 100px 0 100px 120px;
+  padding: 99px 20px 0;
   text-align: left;
 }
 .back-similar-artists h2 {
-  margin-bottom: 50px;
+  margin-bottom: 49px;
 }
 
 .similar-artists {
