@@ -295,6 +295,10 @@ h3 {
   letter-spacing: -0.7px;
 }
 
+.white-space {
+  white-space: nowrap;
+}
+
 .back-discography {
   width: 100%;
   max-width: 1240px;
