@@ -42,7 +42,7 @@ h3 {
   font-weight: normal;
 }
 
-@media (width <= 1240px) {
+@media (max-width: 1240px) {
   h1 {
     font-size: 30px;
     line-height: 45px;

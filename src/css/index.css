@@ -40,7 +40,7 @@ h3 {
   font-weight: normal;
 }
 
-@media (width <= 1240px) {
+@media (max-width: 1240px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -185,7 +185,7 @@ h3 {
   cursor: pointer;
 }
 
-@media (width <= 1240px) {
+@media (max-width: 1240px) {
   .back-header {
     width: 100%;
     max-width: 600px;
@@ -351,7 +351,7 @@ h3 {
   margin-bottom: 64px;
 }
 
-@media (width <= 1240px) {
+@media (max-width: 1240px) {
   .back-subscription {
     width: 100%;
     max-width: 600px;
@@ -458,7 +458,7 @@ h3 {
   padding: 0 20px;
 }
 
-@media (width <= 1240px) {
+@media (max-width: 1240px) {
   .back-news {
     width: 100%;
     max-width: 600px;
@@ -547,7 +547,7 @@ h3 {
   cursor: pointer;
 }
 
-@media (width <= 1240px) {
+@media (max-width: 1240px) {
   .back-mobile {
     width: 100%;
     max-width: 600px;
@@ -698,7 +698,7 @@ h3 {
   color: #e0e0e0;
 }
 
-@media (width <= 1240px) {
+@media (max-width: 1240px) {
   .back-footer {
     width: 100%;
     max-width: 600px;

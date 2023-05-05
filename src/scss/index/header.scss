@@ -120,7 +120,7 @@
   cursor: pointer;
 }
 
-@media (width <= 1240px) {
+@media (max-width: 1240px) {
   .back-header {
     width: 100%;
     max-width: 600px;
