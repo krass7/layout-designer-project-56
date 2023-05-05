@@ -1,3 +1,6 @@
+/* stylelint-disable no-descending-specificity */
+@import 'https://fonts.googleapis.com/css2?family=Roboto&display=swap';
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -40,7 +43,7 @@ h3 {
   font-weight: normal;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -185,7 +188,7 @@ h3 {
   cursor: pointer;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-header {
     width: 100%;
     max-width: 600px;
@@ -351,7 +354,7 @@ h3 {
   margin-bottom: 64px;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-subscription {
     width: 100%;
     max-width: 600px;
@@ -458,7 +461,7 @@ h3 {
   padding: 0 20px;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-news {
     width: 100%;
     max-width: 600px;
@@ -547,7 +550,7 @@ h3 {
   cursor: pointer;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-mobile {
     width: 100%;
     max-width: 600px;
@@ -698,7 +701,7 @@ h3 {
   color: #e0e0e0;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-footer {
     width: 100%;
     max-width: 600px;

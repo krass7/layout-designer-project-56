@@ -1,4 +1,5 @@
-@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+/* stylelint-disable no-descending-specificity */
+@import 'https://fonts.googleapis.com/css2?family=Roboto&display=swap';
 
 * {
   box-sizing: border-box;
@@ -14,6 +15,10 @@ body {
   line-height: 1.5;
   color: #cacaca;
   background: #08020d;
+}
+
+.gray {
+  color: #e0e0e0;
 }
 
 a {
@@ -42,7 +47,7 @@ h3 {
   font-weight: normal;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -67,10 +72,6 @@ h3 {
 
 .dark-gray {
   color: #cacaca;
-}
-
-.gray {
-  color: #e0e0e0;
 }
 
 .back-header {
@@ -208,7 +209,7 @@ h3 {
   filter: invert(1);
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-header {
     max-width: 600px;
     padding: 0 20px;
@@ -249,10 +250,6 @@ h3 {
   .executor-buttons {
     flex-direction: column;
   }
-}
-
-.gray {
-  color: #e0e0e0;
 }
 
 .back-popular-tracks {
@@ -302,15 +299,11 @@ h3 {
   flex-grow: 1;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-popular-tracks {
     max-width: 600px;
     padding: 100px 20px 0;
   }
-}
-
-.gray {
-  color: #e0e0e0;
 }
 
 .font-size-18 {
@@ -342,7 +335,7 @@ h3 {
   gap: 18px;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-discography {
     max-width: 600px;
     padding: 100px 20px 0;
@@ -360,10 +353,6 @@ h3 {
   .discography-info {
     max-width: 137px;
   }
-}
-
-.gray {
-  color: #e0e0e0;
 }
 
 .font-size-18 {
@@ -396,7 +385,7 @@ h3 {
   text-align: center;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-similar-artists {
     max-width: 600px;
     padding: 100px 20px;
@@ -530,7 +519,7 @@ h3 {
   color: #e0e0e0;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-footer {
     width: 100%;
     max-width: 600px;
