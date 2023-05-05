@@ -47,7 +47,7 @@ h3 {
   font-weight: normal;
 }
 
-@media (width <= 1240px) {
+@media (max-width: 1240px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -86,10 +86,10 @@ h3 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../images/Morten_Harket.png");
+  background-image: url('../images/Morten_Harket.png');
   background-position: center;
   background-size: cover;
-  content: "";
+  content: '';
   z-index: -1;
 }
 
@@ -102,7 +102,7 @@ h3 {
   font-size: 11px;
   top: 25px;
   left: 120px;
-  content: "";
+  content: '';
 }
 
 .header-logo {
@@ -209,7 +209,7 @@ h3 {
   filter: invert(1);
 }
 
-@media (width <= 1240px) {
+@media (max-width: 1240px) {
   .back-header {
     max-width: 600px;
     padding: 0 20px;
@@ -299,7 +299,7 @@ h3 {
   flex-grow: 1;
 }
 
-@media (width <= 1240px) {
+@media (max-width: 1240px) {
   .back-popular-tracks {
     max-width: 600px;
     padding: 100px 20px 0;
@@ -335,7 +335,7 @@ h3 {
   gap: 18px;
 }
 
-@media (width <= 1240px) {
+@media (max-width: 1240px) {
   .back-discography {
     max-width: 600px;
     padding: 100px 20px 0;
@@ -385,7 +385,7 @@ h3 {
   text-align: center;
 }
 
-@media (width <= 1240px) {
+@media (max-width: 1240px) {
   .back-similar-artists {
     max-width: 600px;
     padding: 100px 20px;
@@ -507,7 +507,7 @@ h3 {
   left: 0;
   width: 100%;
   border: 1px solid #cacaca;
-  content: "";
+  content: '';
 }
 
 .navigation-links {
@@ -519,7 +519,7 @@ h3 {
   color: #e0e0e0;
 }
 
-@media (width <= 1240px) {
+@media (max-width: 1240px) {
   .back-footer {
     width: 100%;
     max-width: 600px;
