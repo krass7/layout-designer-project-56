@@ -49,7 +49,7 @@
   flex-grow: 1;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-popular-tracks {
     max-width: 600px;
     padding: 100px 20px 0;

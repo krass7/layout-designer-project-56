@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   line-height: 1.5;
   color: #cacaca;
   background: #08020d;
@@ -17,7 +18,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
 
 h1 {
@@ -41,19 +42,21 @@ h3 {
   font-weight: normal;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
     font-weight: 700;
     text-transform: uppercase;
   }
+
   h2 {
     font-size: 18px;
     line-height: 27px;
     font-weight: 700;
     text-transform: uppercase;
   }
+
   h3 {
     font-size: 16px;
     line-height: 24px;
@@ -61,6 +64,7 @@ h3 {
     text-transform: uppercase;
   }
 }
+
 .dark-gray {
   color: #cacaca;
 }
@@ -74,6 +78,7 @@ h3 {
   width: 100%;
   max-width: 1440px;
 }
+
 .back-header::before {
   position: absolute;
   top: 0;
@@ -105,8 +110,9 @@ h3 {
   gap: 17px;
   margin-right: 86px;
 }
+
 .header-logo p {
-  color: #ffffff;
+  color: #fff;
 }
 
 .header-logo-img {
@@ -124,24 +130,27 @@ h3 {
   width: 250px;
   height: 25px;
   background: #3c3b3d;
-  color: #ffffff;
+  color: #fff;
   border-radius: 50px;
   border: none;
   outline: none;
   padding: 0 10px;
 }
+
 .header-form-input::placeholder {
   font-size: 13px;
   color: #757575;
 }
 
 .executor {
-  color: #ffffff;
+  color: #fff;
   padding: 250px 120px 223px;
 }
+
 .executor h1 {
   margin-bottom: 16px;
 }
+
 .executor p {
   margin-bottom: 48px;
 }
@@ -162,11 +171,13 @@ h3 {
   text-transform: uppercase;
   padding: 20px 30px;
 }
+
 .button-mix a {
   display: flex;
   align-items: center;
   gap: 16px;
 }
+
 .button-mix a img {
   width: 20px;
   height: 20px;
@@ -184,22 +195,25 @@ h3 {
   text-transform: uppercase;
   padding: 20px 30px;
 }
+
 .button-favorites a {
   display: flex;
   align-items: center;
   gap: 16px;
 }
+
 .button-favorites a img {
   width: 20px;
   height: 20px;
   filter: invert(1);
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-header {
     max-width: 600px;
     padding: 0 20px;
   }
+
   .header-absolute {
     flex-direction: column;
     align-items: flex-start;
@@ -207,29 +221,36 @@ h3 {
     left: auto;
     width: calc(100% - 40px);
   }
+
   .header-logo {
     margin-right: 0;
     margin-bottom: 15px;
   }
+
   .header-links {
     flex-direction: column;
     gap: 0;
     margin-right: 0;
     margin-bottom: 18px;
   }
+
   .header-form {
     width: 100%;
   }
+
   .header-form-input {
     width: 100%;
   }
+
   .executor {
     padding: 225px 0 223px;
   }
+
   .executor-buttons {
     flex-direction: column;
   }
 }
+
 .gray {
   color: #e0e0e0;
 }
@@ -238,10 +259,11 @@ h3 {
   width: 100%;
   max-width: 1240px;
   background: #08020d;
-  color: #ffffff;
+  color: #fff;
   padding: 100px 20px 0;
   text-align: left;
 }
+
 .back-popular-tracks h2 {
   margin-bottom: 48px;
 }
@@ -257,10 +279,12 @@ h3 {
   gap: 15px;
   width: 550px;
 }
+
 .popular-track img {
   width: 55px;
   height: 55px;
 }
+
 .popular-track p {
   font-size: 13px;
 }
@@ -278,12 +302,13 @@ h3 {
   flex-grow: 1;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-popular-tracks {
     max-width: 600px;
     padding: 100px 20px 0;
   }
 }
+
 .gray {
   color: #e0e0e0;
 }
@@ -296,10 +321,11 @@ h3 {
   width: 100%;
   max-width: 1240px;
   background: #08020d;
-  color: #ffffff;
+  color: #fff;
   padding: 100px 20px 0;
   text-align: left;
 }
+
 .back-discography h2 {
   margin-bottom: 48px;
 }
@@ -316,22 +342,26 @@ h3 {
   gap: 18px;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-discography {
     max-width: 600px;
     padding: 100px 20px 0;
   }
+
   .back-discography h2 {
     margin-bottom: 48px;
   }
+
   .discography-item img {
     width: 137px;
     height: 137px;
   }
+
   .discography-info {
     max-width: 137px;
   }
 }
+
 .gray {
   color: #e0e0e0;
 }
@@ -344,10 +374,11 @@ h3 {
   width: 100%;
   max-width: 1240px;
   background: #08020d;
-  color: #ffffff;
+  color: #fff;
   padding: 99px 20px 0;
   text-align: left;
 }
+
 .back-similar-artists h2 {
   margin-bottom: 49px;
 }
@@ -365,22 +396,26 @@ h3 {
   text-align: center;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-similar-artists {
     max-width: 600px;
     padding: 100px 20px;
   }
+
   .back-similar-artists h2 {
     margin-bottom: 47px;
   }
+
   .similar-item img {
     width: 137px;
     height: 137px;
   }
+
   .similar-info {
     max-width: 137px;
   }
 }
+
 .font-size-15 {
   font-size: 15px;
 }
@@ -404,14 +439,16 @@ h3 {
   display: flex;
   flex-direction: column;
 }
+
 .about h2 {
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 14px;
 }
+
 .about a {
   color: #e0e0e0;
 }
@@ -421,14 +458,16 @@ h3 {
   display: flex;
   flex-direction: column;
 }
+
 .support h2 {
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 14px;
 }
+
 .support a {
   color: #e0e0e0;
 }
@@ -438,14 +477,16 @@ h3 {
   display: flex;
   flex-direction: column;
 }
+
 .contacts h2 {
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 14px;
 }
+
 .contacts p {
   color: #e0e0e0;
 }
@@ -455,12 +496,13 @@ h3 {
   display: flex;
   flex-direction: column;
 }
+
 .subscribe h2 {
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 17px;
 }
 
@@ -483,31 +525,34 @@ h3 {
   display: flex;
   gap: 17px;
 }
+
 .navigation-links a {
   color: #e0e0e0;
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-footer {
     width: 100%;
     max-width: 600px;
     padding: 64px 20px 47px;
   }
+
   .navigation {
     flex-direction: column;
     gap: 32px;
     margin-bottom: 116px;
   }
+
   .subscribe h2 {
     margin-bottom: 19px;
   }
+
   .white-line {
     top: 684px;
   }
+
   .navigation-links {
     flex-direction: column;
     gap: 16px;
   }
 }
-
-/*# sourceMappingURL=artist.css.map */

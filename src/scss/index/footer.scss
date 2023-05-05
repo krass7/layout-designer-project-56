@@ -112,7 +112,7 @@
   }
 }
 
-@media (max-width: 1240px) {
+@media (width <= 1240px) {
   .back-footer {
     width: 100%;
     max-width: 600px;
