@@ -13,10 +13,10 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../images/banner.png");
+    background-image: url('../images/banner.png');
     background-position: center;
     background-size: cover;
-    content: "";
+    content: '';
     z-index: -1;
   }
 }
@@ -26,10 +26,11 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  gap: 10px 0;
   font-size: 11px;
   top: 25px;
   left: 119px;
-  content: "";
+  content: '';
 }
 
 .header-logo {
@@ -138,10 +139,6 @@
   .header-logo {
     margin-right: 0;
     margin-bottom: 15px;
-
-    & p {
-      font-weight: 700;
-    }
   }
 
   .header-links {
@@ -149,10 +146,6 @@
     gap: 0;
     margin-right: 0;
     margin-bottom: 18px;
-
-    & a {
-      font-weight: 700;
-    }
   }
 
   .header-form {
